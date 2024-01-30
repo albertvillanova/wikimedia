@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wikimedia"
+version = "0.1.0"
+description = "Parser and cleaner for Wikimedia wikicode"
+authors = ["Albert Villanova del Moral <8515462+albertvillanova@users.noreply.github.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mwparserfromhell = "^0.6.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
